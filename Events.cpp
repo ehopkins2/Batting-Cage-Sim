@@ -70,6 +70,7 @@ vector<player>::iterator find_player(vector<player>::iterator first, vector<play
     return last;
 }
 
+//TODO: Get rid of this function and replace everywhere else with a function that just uses %
 //NOT ORIGINAL WORK
 //function takes in integer and finds a random integer less than that number
 int nrand(int n)
